@@ -14,7 +14,7 @@ export default function NewsDetailPage({ params }) {
     <>
       <article className={"news-article"}>
         <header>
-          <Link href={`/app/(content)/news/${newsItem.slug}/image`}>
+          <Link href={`/news/${newsItem.slug}/image`}>
             <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} />
           </Link>
           <h1>{newsItem.title}</h1>
